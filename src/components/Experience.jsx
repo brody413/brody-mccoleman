@@ -27,7 +27,7 @@ const Experience = () => {
 
             <div className='text-center pt-10'>
             <p className='text-2xl text-center font-bold inline py-4 text-[#ccd6f6]'>Languages</p>
-            <p>// These are the my most frequently used languages throughout the past 3 years //</p>
+            <p>These are the my most frequently used languages throughout the past 3 years </p>
             </div>
 
             {/**Java */}
@@ -71,7 +71,7 @@ const Experience = () => {
             {/**Frameworks & Query */}
             <div className='text-center pt-10'>
             <p className='text-2xl text-center font-bold inline py-4 text-[#ccd6f6]'>Frameworks & Query Software</p>
-            <p>// These are the my most frequently used Frameworks and Query + Cloud Software throughout the past 3 years //</p>
+            <p>These are the my most frequently used Frameworks and Query + Cloud Software throughout the past 3 years</p>
             </div>
 
             {/**React */}

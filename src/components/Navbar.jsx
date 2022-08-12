@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
+/*import {HiOutlineMail} from 'react-icons/hi'*/
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import me from '../assets/Me.png'
 import {Link} from 'react-scroll'
@@ -53,25 +53,25 @@ const Navbar = () => {
         {/*Mobile Menu */}
         <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center text-center'}>
             <ul>
-                <li className='py-6 text-6xl'>
+                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
                     <Link onClick={handleClick} to="home"  smooth={true}  duration={500}>
                         Home
                     </Link>
                 </li>
 
-                <li className='py-6 text-6xl'>
+                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
                     <Link onClick={handleClick} to="about"  smooth={true}  duration={500}>
                         About
                     </Link>
                 </li>
 
-                <li className='py-6 text-6xl'>
+                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
                     <Link onClick={handleClick} to="experience"  smooth={true}  duration={500}>
                         Experience
                     </Link>
                 </li>
 
-                <li className='py-6 text-6xl'>
+                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
                     <Link onClick={handleClick} to="contact"  smooth={true}  duration={500}>
                         Contact
                     </Link>
@@ -100,11 +100,12 @@ const Navbar = () => {
                     </a>
                 </li>
 
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                {/* DOES NOT WORK */}
+                {/*<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                     <a href='bro11.2001@gmail.com' className='flex justify-between items-center w-full text-gray-300'>
                         Email <HiOutlineMail size={20} />
                     </a>
-                </li>
+                </li>*/}
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a href='https://docs.google.com/document/d/1Kq4S1a1APNuspNknV2-VrdddhRJ8BaYN/edit?usp=sharing&ouid=114310156745534202292&rtpof=true&sd=true' className='flex justify-between items-center w-full text-gray-300'>

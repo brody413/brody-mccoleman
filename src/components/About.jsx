@@ -9,14 +9,14 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
           <img src={me} alt="my logo" id='meAboutLogo' style={{width: '500px'}} className='px-2 py-2'/>
-            <p className='text-6xl font-bold inline border-b-4 border-white text-[#ccd6f6]'>
+            <p id='small' className='text-6xl font-bold inline border-b-4 border-white text-[#ccd6f6]'>
               About
             </p>
           </div>
           <div></div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
+            <div id='small' className='sm:text-right text-4xl font-bold'>
               <p>Hello, I'm Brody.</p>
               <p>Plessure to meet you. Enjoy your stay!</p>
             </div>

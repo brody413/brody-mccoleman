@@ -9,7 +9,7 @@ const Home = () => {
         {/*container*/}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white'>
             <p className='text-2xl'>Hello, My Name Is</p>
-            <h1 className='text-8xl sm:9xl font-bold text-[#ccd6f6]'>Brody McColeman</h1>
+            <h1 id='small' className='text-8xl sm:9xl font-bold text-[#ccd6f6]'>Brody McColeman</h1>
             <h4 className='py-2'>Student & Sofware Developer/Engineer</h4>
             <div>
             <button>

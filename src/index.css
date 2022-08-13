@@ -59,29 +59,8 @@
 
   @media only screen and (min-width: 800px) {
     body{
-        font-size: 1rem;
         background-color: #0a192f;
-    }
-    #phoneScreen{
-        margin-top: .5rem;
-    }
-    #small{
-        font-size: 2rem;
-    }
-    #smallIcon{
-       max-width: 2rem;
-    }
-    #contactSmall{
-        margin-top: 3in;
     }
   }
 
-  @media only screen and (min-width: 1380px) {
-    body{
-        font-size: 1rem;
-        background-color: #0a192f;
-    }
-    #contactSmall{
-        margin-top: 3in;
-    }
-  }
+ 

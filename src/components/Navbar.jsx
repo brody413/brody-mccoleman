@@ -11,7 +11,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#9caf88ce] text-white '>
         <div>
             <img src={me} alt="my logo" style={{width: '75px'}} id='meLogo'/>
         </div>
@@ -19,25 +19,25 @@ const Navbar = () => {
         {/* Menu */}
         <div className='hidden md:flex' id='navBar'>
             <ul className='hidden md:flex'>
-                <li className='hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black text-2xl'>
                     <Link to="home"  smooth={true}  duration={500}>
                         Home
                     </Link>
                 </li>
 
-                <li className='hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black text-2xl'>
                     <Link to="about"  smooth={true}  duration={500}>
                         About
                     </Link>
                 </li>
 
-                <li className='hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black text-2xl'>
                     <Link to="experience"  smooth={true}  duration={500}>
                         Experience
                     </Link>
                 </li>
 
-                <li className='hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black text-2xl'>
                     <Link to="contact"  smooth={true}  duration={500}>
                         Contact
                     </Link>
@@ -51,27 +51,27 @@ const Navbar = () => {
         </div>
 
         {/*Mobile Menu */}
-        <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center text-center'}>
+        <div id='smallNav' className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#7a8866] flex flex-col justify-center items-center text-center'}>
             <ul>
-                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='py-6 text-4xl hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black'>
                     <Link onClick={handleClick} to="home"  smooth={true}  duration={500}>
                         Home
                     </Link>
                 </li>
 
-                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='py-6 text-4xl hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black'>
                     <Link onClick={handleClick} to="about"  smooth={true}  duration={500}>
                         About
                     </Link>
                 </li>
 
-                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='py-6 text-4xl hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black'>
                     <Link onClick={handleClick} to="experience"  smooth={true}  duration={500}>
                         Experience
                     </Link>
                 </li>
 
-                <li className='py-6 text-6xl hover:border-4 hover:border-black hover:bg-[#ccd6f6] hover:text-black'>
+                <li className='py-6 text-4xl hover:border-4 hover:border-[#7a8866] hover:bg-[#E8DEFC] hover:text-black'>
                     <Link onClick={handleClick} to="contact"  smooth={true}  duration={500}>
                         Contact
                     </Link>
